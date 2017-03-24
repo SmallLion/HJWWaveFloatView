@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		261D8F8E1E85076000E5C108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8F8D1E85076000E5C108 /* main.m */; };
+		261D8F911E85076000E5C108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8F901E85076000E5C108 /* AppDelegate.m */; };
+		261D8F941E85076000E5C108 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8F931E85076000E5C108 /* ViewController.m */; };
+		261D8F971E85076000E5C108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261D8F951E85076000E5C108 /* Main.storyboard */; };
+		261D8F991E85076000E5C108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261D8F981E85076000E5C108 /* Assets.xcassets */; };
+		261D8F9C1E85076000E5C108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261D8F9A1E85076000E5C108 /* LaunchScreen.storyboard */; };
+		261D8FA51E85079500E5C108 /* HJWWaveFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8FA41E85079500E5C108 /* HJWWaveFloatView.m */; };
+		261D8FB71E8507DE00E5C108 /* HJWCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8FA81E8507DE00E5C108 /* HJWCircleView.m */; };
+		261D8FB81E8507DE00E5C108 /* CustomDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8FAC1E8507DE00E5C108 /* CustomDrawingView.m */; };
+		261D8FB91E8507DE00E5C108 /* DrawingColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8FAE1E8507DE00E5C108 /* DrawingColor.m */; };
+		261D8FBA1E8507DE00E5C108 /* DrawingStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8FB01E8507DE00E5C108 /* DrawingStyle.m */; };
+		261D8FBB1E8507DE00E5C108 /* DrawRectObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8FB21E8507DE00E5C108 /* DrawRectObject.m */; };
+		261D8FBC1E8507DE00E5C108 /* HJWWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8FB41E8507DE00E5C108 /* HJWWaveView.m */; };
+		261D8FBD1E8507DE00E5C108 /* ReplicatorLineAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8FB61E8507DE00E5C108 /* ReplicatorLineAnimationView.m */; };
+		261D8FCD1E85088C00E5C108 /* UIColor+HJWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8FCA1E85088C00E5C108 /* UIColor+HJWColor.m */; };
+		261D8FCE1E85088C00E5C108 /* UIView+HJW.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8FCC1E85088C00E5C108 /* UIView+HJW.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		261D8F891E85076000E5C108 /* HJWWaveFloatView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJWWaveFloatView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		261D8F8D1E85076000E5C108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		261D8F8F1E85076000E5C108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		261D8F901E85076000E5C108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		261D8F921E85076000E5C108 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		261D8F931E85076000E5C108 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		261D8F961E85076000E5C108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		261D8F981E85076000E5C108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		261D8F9B1E85076000E5C108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		261D8F9D1E85076000E5C108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		261D8FA31E85079500E5C108 /* HJWWaveFloatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJWWaveFloatView.h; sourceTree = "<group>"; };
+		261D8FA41E85079500E5C108 /* HJWWaveFloatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJWWaveFloatView.m; sourceTree = "<group>"; };
+		261D8FA71E8507DE00E5C108 /* HJWCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJWCircleView.h; sourceTree = "<group>"; };
+		261D8FA81E8507DE00E5C108 /* HJWCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJWCircleView.m; sourceTree = "<group>"; };
+		261D8FAB1E8507DE00E5C108 /* CustomDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDrawingView.h; sourceTree = "<group>"; };
+		261D8FAC1E8507DE00E5C108 /* CustomDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDrawingView.m; sourceTree = "<group>"; };
+		261D8FAD1E8507DE00E5C108 /* DrawingColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingColor.h; sourceTree = "<group>"; };
+		261D8FAE1E8507DE00E5C108 /* DrawingColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingColor.m; sourceTree = "<group>"; };
+		261D8FAF1E8507DE00E5C108 /* DrawingStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingStyle.h; sourceTree = "<group>"; };
+		261D8FB01E8507DE00E5C108 /* DrawingStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingStyle.m; sourceTree = "<group>"; };
+		261D8FB11E8507DE00E5C108 /* DrawRectObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRectObject.h; sourceTree = "<group>"; };
+		261D8FB21E8507DE00E5C108 /* DrawRectObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectObject.m; sourceTree = "<group>"; };
+		261D8FB31E8507DE00E5C108 /* HJWWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJWWaveView.h; sourceTree = "<group>"; };
+		261D8FB41E8507DE00E5C108 /* HJWWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJWWaveView.m; sourceTree = "<group>"; };
+		261D8FB51E8507DE00E5C108 /* ReplicatorLineAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorLineAnimationView.h; sourceTree = "<group>"; };
+		261D8FB61E8507DE00E5C108 /* ReplicatorLineAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLineAnimationView.m; sourceTree = "<group>"; };
+		261D8FC91E85088C00E5C108 /* UIColor+HJWColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HJWColor.h"; sourceTree = "<group>"; };
+		261D8FCA1E85088C00E5C108 /* UIColor+HJWColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HJWColor.m"; sourceTree = "<group>"; };
+		261D8FCB1E85088C00E5C108 /* UIView+HJW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HJW.h"; sourceTree = "<group>"; };
+		261D8FCC1E85088C00E5C108 /* UIView+HJW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HJW.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		261D8F861E85076000E5C108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		261D8F801E85076000E5C108 = {
+			isa = PBXGroup;
+			children = (
+				261D8FC81E85088C00E5C108 /* Category */,
+				261D8FA61E8507DE00E5C108 /* HJWCircleView */,
+				261D8FA91E8507DE00E5C108 /* HJWWaterWave */,
+				261D8FA31E85079500E5C108 /* HJWWaveFloatView.h */,
+				261D8FA41E85079500E5C108 /* HJWWaveFloatView.m */,
+				261D8F8B1E85076000E5C108 /* HJWWaveFloatView */,
+				261D8F8A1E85076000E5C108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		261D8F8A1E85076000E5C108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				261D8F891E85076000E5C108 /* HJWWaveFloatView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		261D8F8B1E85076000E5C108 /* HJWWaveFloatView */ = {
+			isa = PBXGroup;
+			children = (
+				261D8F8F1E85076000E5C108 /* AppDelegate.h */,
+				261D8F901E85076000E5C108 /* AppDelegate.m */,
+				261D8F921E85076000E5C108 /* ViewController.h */,
+				261D8F931E85076000E5C108 /* ViewController.m */,
+				261D8F951E85076000E5C108 /* Main.storyboard */,
+				261D8F981E85076000E5C108 /* Assets.xcassets */,
+				261D8F9A1E85076000E5C108 /* LaunchScreen.storyboard */,
+				261D8F9D1E85076000E5C108 /* Info.plist */,
+				261D8F8C1E85076000E5C108 /* Supporting Files */,
+			);
+			path = HJWWaveFloatView;
+			sourceTree = "<group>";
+		};
+		261D8F8C1E85076000E5C108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				261D8F8D1E85076000E5C108 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		261D8FA61E8507DE00E5C108 /* HJWCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				261D8FA71E8507DE00E5C108 /* HJWCircleView.h */,
+				261D8FA81E8507DE00E5C108 /* HJWCircleView.m */,
+			);
+			path = HJWCircleView;
+			sourceTree = "<group>";
+		};
+		261D8FA91E8507DE00E5C108 /* HJWWaterWave */ = {
+			isa = PBXGroup;
+			children = (
+				261D8FAA1E8507DE00E5C108 /* DrawRectObject */,
+				261D8FB31E8507DE00E5C108 /* HJWWaveView.h */,
+				261D8FB41E8507DE00E5C108 /* HJWWaveView.m */,
+				261D8FB51E8507DE00E5C108 /* ReplicatorLineAnimationView.h */,
+				261D8FB61E8507DE00E5C108 /* ReplicatorLineAnimationView.m */,
+			);
+			path = HJWWaterWave;
+			sourceTree = "<group>";
+		};
+		261D8FAA1E8507DE00E5C108 /* DrawRectObject */ = {
+			isa = PBXGroup;
+			children = (
+				261D8FAB1E8507DE00E5C108 /* CustomDrawingView.h */,
+				261D8FAC1E8507DE00E5C108 /* CustomDrawingView.m */,
+				261D8FAD1E8507DE00E5C108 /* DrawingColor.h */,
+				261D8FAE1E8507DE00E5C108 /* DrawingColor.m */,
+				261D8FAF1E8507DE00E5C108 /* DrawingStyle.h */,
+				261D8FB01E8507DE00E5C108 /* DrawingStyle.m */,
+				261D8FB11E8507DE00E5C108 /* DrawRectObject.h */,
+				261D8FB21E8507DE00E5C108 /* DrawRectObject.m */,
+			);
+			path = DrawRectObject;
+			sourceTree = "<group>";
+		};
+		261D8FC81E85088C00E5C108 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				261D8FC91E85088C00E5C108 /* UIColor+HJWColor.h */,
+				261D8FCA1E85088C00E5C108 /* UIColor+HJWColor.m */,
+				261D8FCB1E85088C00E5C108 /* UIView+HJW.h */,
+				261D8FCC1E85088C00E5C108 /* UIView+HJW.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		261D8F881E85076000E5C108 /* HJWWaveFloatView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261D8FA01E85076000E5C108 /* Build configuration list for PBXNativeTarget "HJWWaveFloatView" */;
+			buildPhases = (
+				261D8F851E85076000E5C108 /* Sources */,
+				261D8F861E85076000E5C108 /* Frameworks */,
+				261D8F871E85076000E5C108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJWWaveFloatView;
+			productName = HJWWaveFloatView;
+			productReference = 261D8F891E85076000E5C108 /* HJWWaveFloatView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		261D8F811E85076000E5C108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Lemon_Mr.H;
+				TargetAttributes = {
+					261D8F881E85076000E5C108 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 57HG9ZXHQZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 261D8F841E85076000E5C108 /* Build configuration list for PBXProject "HJWWaveFloatView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 261D8F801E85076000E5C108;
+			productRefGroup = 261D8F8A1E85076000E5C108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				261D8F881E85076000E5C108 /* HJWWaveFloatView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		261D8F871E85076000E5C108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261D8F9C1E85076000E5C108 /* LaunchScreen.storyboard in Resources */,
+				261D8F991E85076000E5C108 /* Assets.xcassets in Resources */,
+				261D8F971E85076000E5C108 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		261D8F851E85076000E5C108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261D8FB81E8507DE00E5C108 /* CustomDrawingView.m in Sources */,
+				261D8F941E85076000E5C108 /* ViewController.m in Sources */,
+				261D8FCE1E85088C00E5C108 /* UIView+HJW.m in Sources */,
+				261D8FB71E8507DE00E5C108 /* HJWCircleView.m in Sources */,
+				261D8F911E85076000E5C108 /* AppDelegate.m in Sources */,
+				261D8FB91E8507DE00E5C108 /* DrawingColor.m in Sources */,
+				261D8FA51E85079500E5C108 /* HJWWaveFloatView.m in Sources */,
+				261D8FBA1E8507DE00E5C108 /* DrawingStyle.m in Sources */,
+				261D8F8E1E85076000E5C108 /* main.m in Sources */,
+				261D8FBB1E8507DE00E5C108 /* DrawRectObject.m in Sources */,
+				261D8FCD1E85088C00E5C108 /* UIColor+HJWColor.m in Sources */,
+				261D8FBD1E8507DE00E5C108 /* ReplicatorLineAnimationView.m in Sources */,
+				261D8FBC1E8507DE00E5C108 /* HJWWaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		261D8F951E85076000E5C108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261D8F961E85076000E5C108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		261D8F9A1E85076000E5C108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261D8F9B1E85076000E5C108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		261D8F9E1E85076000E5C108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		261D8F9F1E85076000E5C108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		261D8FA11E85076000E5C108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57HG9ZXHQZ;
+				INFOPLIST_FILE = HJWWaveFloatView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lemon-Mr.H.HJWWaveFloatView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		261D8FA21E85076000E5C108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57HG9ZXHQZ;
+				INFOPLIST_FILE = HJWWaveFloatView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lemon-Mr.H.HJWWaveFloatView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		261D8F841E85076000E5C108 /* Build configuration list for PBXProject "HJWWaveFloatView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261D8F9E1E85076000E5C108 /* Debug */,
+				261D8F9F1E85076000E5C108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		261D8FA01E85076000E5C108 /* Build configuration list for PBXNativeTarget "HJWWaveFloatView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261D8FA11E85076000E5C108 /* Debug */,
+				261D8FA21E85076000E5C108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 261D8F811E85076000E5C108 /* Project object */;
+}
