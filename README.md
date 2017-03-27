@@ -39,3 +39,11 @@
 <br>
 在使用过程中，如果有什么好的建议，可以与我联系。
 
+# Thanks
+### 特别感谢
+
+[KittenYang](https://github.com/KittenYang)， **A GUIDE TO IOS ANIMATION**，通过这本书的重复学习与实践，使我从对于动画的入门。
+[YouXianMing](https://github.com/YouXianMing)的[Animations](https://github.com/YouXianMing/Animations)给予我在动画这方面，有了一个更加深入的提高，与认识。
+
+
+
