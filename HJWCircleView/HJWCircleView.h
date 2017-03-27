@@ -9,10 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface HJWCircleView : UIView
-
+/**
+ *  add Aniamtion, LikeGameCenterBubble.
+ */
 @property (nonatomic, copy) NSString * color;
-
+/**
+ *  add Aniamtion, LikeGameCenterBubble.
+ */
 - (void)addAniamtionLikeGameCenterBubble;
-
+/**
+ *  Remove Aniamtion, LikeGameCenterBubble.
+ */
 - (void)RemoveAniamtionLikeGameCenterBubble;
 @end

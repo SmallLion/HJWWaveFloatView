@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WaveController.h
 //  HJWWaveFloatView
 //
 //  Created by Lemon_Mr.H on 2017/3/27.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface WaveController : UIViewController
 
 @end

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		261D8F8E1E85076000E5C108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8F8D1E85076000E5C108 /* main.m */; };
 		261D8F911E85076000E5C108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8F901E85076000E5C108 /* AppDelegate.m */; };
-		261D8F941E85076000E5C108 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8F931E85076000E5C108 /* ViewController.m */; };
+		261D8F941E85076000E5C108 /* GroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8F931E85076000E5C108 /* GroupController.m */; };
 		261D8F971E85076000E5C108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261D8F951E85076000E5C108 /* Main.storyboard */; };
 		261D8F991E85076000E5C108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261D8F981E85076000E5C108 /* Assets.xcassets */; };
 		261D8F9C1E85076000E5C108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261D8F9A1E85076000E5C108 /* LaunchScreen.storyboard */; };
@@ -23,6 +23,9 @@
 		261D8FBD1E8507DE00E5C108 /* ReplicatorLineAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8FB61E8507DE00E5C108 /* ReplicatorLineAnimationView.m */; };
 		261D8FCD1E85088C00E5C108 /* UIColor+HJWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8FCA1E85088C00E5C108 /* UIColor+HJWColor.m */; };
 		261D8FCE1E85088C00E5C108 /* UIView+HJW.m in Sources */ = {isa = PBXBuildFile; fileRef = 261D8FCC1E85088C00E5C108 /* UIView+HJW.m */; };
+		26B9EBC21E88B72C00444C56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9EBC11E88B72C00444C56 /* ViewController.m */; };
+		26B9EBC51E88B82600444C56 /* FloatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9EBC41E88B82600444C56 /* FloatController.m */; };
+		26B9EBC81E88B83200444C56 /* WaveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9EBC71E88B83200444C56 /* WaveController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +33,8 @@
 		261D8F8D1E85076000E5C108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		261D8F8F1E85076000E5C108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		261D8F901E85076000E5C108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		261D8F921E85076000E5C108 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		261D8F931E85076000E5C108 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		261D8F921E85076000E5C108 /* GroupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupController.h; sourceTree = "<group>"; };
+		261D8F931E85076000E5C108 /* GroupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupController.m; sourceTree = "<group>"; };
 		261D8F961E85076000E5C108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		261D8F981E85076000E5C108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		261D8F9B1E85076000E5C108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +59,12 @@
 		261D8FCA1E85088C00E5C108 /* UIColor+HJWColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HJWColor.m"; sourceTree = "<group>"; };
 		261D8FCB1E85088C00E5C108 /* UIView+HJW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HJW.h"; sourceTree = "<group>"; };
 		261D8FCC1E85088C00E5C108 /* UIView+HJW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HJW.m"; sourceTree = "<group>"; };
+		26B9EBC01E88B72C00444C56 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26B9EBC11E88B72C00444C56 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26B9EBC31E88B82600444C56 /* FloatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatController.h; sourceTree = "<group>"; };
+		26B9EBC41E88B82600444C56 /* FloatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatController.m; sourceTree = "<group>"; };
+		26B9EBC61E88B83200444C56 /* WaveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveController.h; sourceTree = "<group>"; };
+		26B9EBC71E88B83200444C56 /* WaveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +102,11 @@
 		261D8F8B1E85076000E5C108 /* HJWWaveFloatView */ = {
 			isa = PBXGroup;
 			children = (
+				26B9EBBF1E88B6F800444C56 /* Controller */,
 				261D8F8F1E85076000E5C108 /* AppDelegate.h */,
 				261D8F901E85076000E5C108 /* AppDelegate.m */,
-				261D8F921E85076000E5C108 /* ViewController.h */,
-				261D8F931E85076000E5C108 /* ViewController.m */,
+				26B9EBC01E88B72C00444C56 /* ViewController.h */,
+				26B9EBC11E88B72C00444C56 /* ViewController.m */,
 				261D8F951E85076000E5C108 /* Main.storyboard */,
 				261D8F981E85076000E5C108 /* Assets.xcassets */,
 				261D8F9A1E85076000E5C108 /* LaunchScreen.storyboard */,
@@ -127,10 +137,10 @@
 			isa = PBXGroup;
 			children = (
 				261D8FAA1E8507DE00E5C108 /* DrawRectObject */,
-				261D8FB31E8507DE00E5C108 /* HJWWaveView.h */,
-				261D8FB41E8507DE00E5C108 /* HJWWaveView.m */,
 				261D8FB51E8507DE00E5C108 /* ReplicatorLineAnimationView.h */,
 				261D8FB61E8507DE00E5C108 /* ReplicatorLineAnimationView.m */,
+				261D8FB31E8507DE00E5C108 /* HJWWaveView.h */,
+				261D8FB41E8507DE00E5C108 /* HJWWaveView.m */,
 			);
 			path = HJWWaterWave;
 			sourceTree = "<group>";
@@ -159,6 +169,19 @@
 				261D8FCC1E85088C00E5C108 /* UIView+HJW.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		26B9EBBF1E88B6F800444C56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				261D8F921E85076000E5C108 /* GroupController.h */,
+				261D8F931E85076000E5C108 /* GroupController.m */,
+				26B9EBC31E88B82600444C56 /* FloatController.h */,
+				26B9EBC41E88B82600444C56 /* FloatController.m */,
+				26B9EBC61E88B83200444C56 /* WaveController.h */,
+				26B9EBC71E88B83200444C56 /* WaveController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +256,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B9EBC21E88B72C00444C56 /* ViewController.m in Sources */,
 				261D8FB81E8507DE00E5C108 /* CustomDrawingView.m in Sources */,
-				261D8F941E85076000E5C108 /* ViewController.m in Sources */,
+				26B9EBC81E88B83200444C56 /* WaveController.m in Sources */,
+				261D8F941E85076000E5C108 /* GroupController.m in Sources */,
 				261D8FCE1E85088C00E5C108 /* UIView+HJW.m in Sources */,
 				261D8FB71E8507DE00E5C108 /* HJWCircleView.m in Sources */,
 				261D8F911E85076000E5C108 /* AppDelegate.m in Sources */,
@@ -242,6 +267,7 @@
 				261D8FA51E85079500E5C108 /* HJWWaveFloatView.m in Sources */,
 				261D8FBA1E8507DE00E5C108 /* DrawingStyle.m in Sources */,
 				261D8F8E1E85076000E5C108 /* main.m in Sources */,
+				26B9EBC51E88B82600444C56 /* FloatController.m in Sources */,
 				261D8FBB1E8507DE00E5C108 /* DrawRectObject.m in Sources */,
 				261D8FCD1E85088C00E5C108 /* UIColor+HJWColor.m in Sources */,
 				261D8FBD1E8507DE00E5C108 /* ReplicatorLineAnimationView.m in Sources */,
@@ -404,6 +430,7 @@
 				261D8FA21E85076000E5C108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

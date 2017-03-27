@@ -12,6 +12,24 @@
 
 @implementation HJWCircleView
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.backgroundColor = [UIColor clearColor];
+    }
+    return self;
+}
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        self.backgroundColor = [UIColor clearColor];
+    }
+    return self;
+}
+
 - (void)setColor:(NSString *)color {
     _color = color;
     [self setNeedsLayout];
@@ -30,6 +48,7 @@
 
 
 - (void)addAniamtionLikeGameCenterBubble {
+    // 1.绕中心圆移动 Circle move
     CAKeyframeAnimation *pathAnimation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
     pathAnimation.calculationMode = kCAAnimationPaced;
     pathAnimation.fillMode = kCAFillModeForwards;
@@ -46,6 +65,7 @@
     CGPathRelease(curvedPath);
     [self.layer addAnimation:pathAnimation forKey:@"myCircleAnimation"];
     
+    // 2.X方向上的缩放 scale in X
     CAKeyframeAnimation *scaleX = [CAKeyframeAnimation animationWithKeyPath:@"transform.scale.x"];
     scaleX.duration = 1;
     scaleX.values = @[@1.0, @1.1, @1.0];
@@ -56,6 +76,7 @@
     scaleX.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     [self.layer addAnimation:scaleX forKey:@"scaleXAnimation"];
     
+    // 3.Y方向上的缩放 scale in Y
     CAKeyframeAnimation *scaleY = [CAKeyframeAnimation animationWithKeyPath:@"transform.scale.y"];
     scaleY.duration = 1.5;
     scaleY.values = @[@1.0, @1.1, @1.0];
