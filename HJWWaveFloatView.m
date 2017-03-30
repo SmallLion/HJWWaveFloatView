@@ -16,10 +16,10 @@
 @implementation HJWWaveFloatView
 
 - (instancetype)initWithFrame:(CGRect)frame
-            MainColor:(NSString *)mainColor
-      MainSecondColor:(NSString *)mainSecondColor
-      CircleFillColor:(NSString *)circleFillColor
-CircleSecondFillColor:(NSString *)circleSecondFillColor
+                    MainColor:(NSString *)mainColor
+              MainSecondColor:(NSString *)mainSecondColor
+              CircleFillColor:(NSString *)circleFillColor
+        CircleSecondFillColor:(NSString *)circleSecondFillColor
 {
     self = [super initWithFrame:frame];
     if (self) {
@@ -192,30 +192,35 @@ CircleSecondFillColor:(NSString *)circleSecondFillColor
         }
     }
     
-    HJWCircleView * circle = [[HJWCircleView alloc] initWithFrame:CGRectMake(80, 80, 35, 35)];
-    circle.color = _CircleFillColor;
-    [circle addAniamtionLikeGameCenterBubble];
-    [self addSubview:circle];
-    
-    HJWCircleView * circle1 = [[HJWCircleView alloc] initWithFrame:CGRectMake(-35 / 2, 44, 35, 35)];
-    circle1.color = _CircleFillColor;
-    [circle1 addAniamtionLikeGameCenterBubble];
-    [self addSubview:circle1];
-    
-    HJWCircleView * circle2 = [[HJWCircleView alloc] initWithFrame:CGRectMake(120, 40, 20, 20)];
-    circle2.color = _CircleSecondFillColor;
-    [circle2 addAniamtionLikeGameCenterBubble];
-    [self addSubview:circle2];
-    
-    HJWCircleView * circle3 = [[HJWCircleView alloc] initWithFrame:CGRectMake(Width / 2 - 25 / 2, 200 - 25, 25, 25)];
-    circle3.color = _CircleFillColor;
-    [circle3 addAniamtionLikeGameCenterBubble];
-    [self addSubview:circle3];
-    
-    HJWCircleView * circle4 = [[HJWCircleView alloc] initWithFrame:CGRectMake(Width - 45, 50, 90, 90)];
-    circle4.color = _CircleSecondFillColor;
-    [circle4 addAniamtionLikeGameCenterBubble];
-    [self addSubview:circle4];
+    {
+        HJWCircleView * circle = [[HJWCircleView alloc] initWithFrame:CGRectMake(80, 80, 35, 35)];
+        circle.color = [UIColor colorWithHexString:_CircleFillColor alpha:1.f];
+        [circle addAniamtionLikeGameCenterBubble];
+        [self addSubview:circle];
+    }
+    {
+        HJWCircleView * circle = [[HJWCircleView alloc] initWithFrame:CGRectMake(-35 / 2, 44, 35, 35)];
+        circle.color = [UIColor colorWithHexString:_CircleFillColor alpha:1.f];
+        [circle addAniamtionLikeGameCenterBubble];
+        [self addSubview:circle];
+    }
+    {
+        HJWCircleView * circle = [[HJWCircleView alloc] initWithFrame:CGRectMake(120, 40, 20, 20)];
+        circle.color = [UIColor colorWithHexString:_CircleSecondFillColor alpha:1.f];
+        [circle addAniamtionLikeGameCenterBubble];
+        [self addSubview:circle];
+    }
+    {
+        HJWCircleView * circle = [[HJWCircleView alloc] initWithFrame:CGRectMake(Width / 2 - 25 / 2, 200 - 25, 25, 25)];
+        circle.color = [UIColor colorWithHexString:_CircleFillColor alpha:1.f];
+        [circle addAniamtionLikeGameCenterBubble];
+        [self addSubview:circle];
+    }
+    {
+        HJWCircleView * circle = [[HJWCircleView alloc] initWithFrame:CGRectMake(Width - 45, 50, 90, 90)];
+        circle.color = [UIColor colorWithHexString:_CircleSecondFillColor alpha:1.f];
+        [circle addAniamtionLikeGameCenterBubble];
+        [self addSubview:circle];
+    }
 }
-
 @end

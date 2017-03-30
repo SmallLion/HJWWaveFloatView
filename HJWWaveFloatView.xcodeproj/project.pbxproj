@@ -84,10 +84,10 @@
 				261D8FC81E85088C00E5C108 /* Category */,
 				261D8FA61E8507DE00E5C108 /* HJWCircleView */,
 				261D8FA91E8507DE00E5C108 /* HJWWaterWave */,
-				261D8FA31E85079500E5C108 /* HJWWaveFloatView.h */,
-				261D8FA41E85079500E5C108 /* HJWWaveFloatView.m */,
 				261D8F8B1E85076000E5C108 /* HJWWaveFloatView */,
 				261D8F8A1E85076000E5C108 /* Products */,
+				261D8FA31E85079500E5C108 /* HJWWaveFloatView.h */,
+				261D8FA41E85079500E5C108 /* HJWWaveFloatView.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +103,15 @@
 			isa = PBXGroup;
 			children = (
 				26B9EBBF1E88B6F800444C56 /* Controller */,
+				261D8F8C1E85076000E5C108 /* Supporting Files */,
 				261D8F8F1E85076000E5C108 /* AppDelegate.h */,
 				261D8F901E85076000E5C108 /* AppDelegate.m */,
+				261D8F981E85076000E5C108 /* Assets.xcassets */,
+				261D8F9D1E85076000E5C108 /* Info.plist */,
+				261D8F9A1E85076000E5C108 /* LaunchScreen.storyboard */,
+				261D8F951E85076000E5C108 /* Main.storyboard */,
 				26B9EBC01E88B72C00444C56 /* ViewController.h */,
 				26B9EBC11E88B72C00444C56 /* ViewController.m */,
-				261D8F951E85076000E5C108 /* Main.storyboard */,
-				261D8F981E85076000E5C108 /* Assets.xcassets */,
-				261D8F9A1E85076000E5C108 /* LaunchScreen.storyboard */,
-				261D8F9D1E85076000E5C108 /* Info.plist */,
-				261D8F8C1E85076000E5C108 /* Supporting Files */,
 			);
 			path = HJWWaveFloatView;
 			sourceTree = "<group>";
@@ -122,6 +122,7 @@
 				261D8F8D1E85076000E5C108 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		261D8FA61E8507DE00E5C108 /* HJWCircleView */ = {
@@ -137,10 +138,10 @@
 			isa = PBXGroup;
 			children = (
 				261D8FAA1E8507DE00E5C108 /* DrawRectObject */,
-				261D8FB51E8507DE00E5C108 /* ReplicatorLineAnimationView.h */,
-				261D8FB61E8507DE00E5C108 /* ReplicatorLineAnimationView.m */,
 				261D8FB31E8507DE00E5C108 /* HJWWaveView.h */,
 				261D8FB41E8507DE00E5C108 /* HJWWaveView.m */,
+				261D8FB51E8507DE00E5C108 /* ReplicatorLineAnimationView.h */,
+				261D8FB61E8507DE00E5C108 /* ReplicatorLineAnimationView.m */,
 			);
 			path = HJWWaterWave;
 			sourceTree = "<group>";
@@ -150,12 +151,12 @@
 			children = (
 				261D8FAB1E8507DE00E5C108 /* CustomDrawingView.h */,
 				261D8FAC1E8507DE00E5C108 /* CustomDrawingView.m */,
+				261D8FB11E8507DE00E5C108 /* DrawRectObject.h */,
+				261D8FB21E8507DE00E5C108 /* DrawRectObject.m */,
 				261D8FAD1E8507DE00E5C108 /* DrawingColor.h */,
 				261D8FAE1E8507DE00E5C108 /* DrawingColor.m */,
 				261D8FAF1E8507DE00E5C108 /* DrawingStyle.h */,
 				261D8FB01E8507DE00E5C108 /* DrawingStyle.m */,
-				261D8FB11E8507DE00E5C108 /* DrawRectObject.h */,
-				261D8FB21E8507DE00E5C108 /* DrawRectObject.m */,
 			);
 			path = DrawRectObject;
 			sourceTree = "<group>";
@@ -174,14 +175,15 @@
 		26B9EBBF1E88B6F800444C56 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				261D8F921E85076000E5C108 /* GroupController.h */,
-				261D8F931E85076000E5C108 /* GroupController.m */,
 				26B9EBC31E88B82600444C56 /* FloatController.h */,
 				26B9EBC41E88B82600444C56 /* FloatController.m */,
+				261D8F921E85076000E5C108 /* GroupController.h */,
+				261D8F931E85076000E5C108 /* GroupController.m */,
 				26B9EBC61E88B83200444C56 /* WaveController.h */,
 				26B9EBC71E88B83200444C56 /* WaveController.m */,
 			);
 			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +286,7 @@
 				261D8F961E85076000E5C108 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		261D8F9A1E85076000E5C108 /* LaunchScreen.storyboard */ = {
@@ -292,6 +295,7 @@
 				261D8F9B1E85076000E5C108 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

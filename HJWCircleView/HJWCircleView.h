@@ -10,9 +10,9 @@
 
 @interface HJWCircleView : UIView
 /**
- *  add Aniamtion, LikeGameCenterBubble.
+ *  Cicle Color.
  */
-@property (nonatomic, copy) NSString * color;
+@property (nonatomic, strong) UIColor * color;
 /**
  *  add Aniamtion, LikeGameCenterBubble.
  */

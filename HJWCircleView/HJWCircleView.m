@@ -7,7 +7,7 @@
 //
 
 #import "HJWCircleView.h"
-#import "UIColor+HJWColor.h"
+
 #define   DEGREES_TO_RADIANS(degrees)  ((M_PI * degrees)/ 180)
 
 @implementation HJWCircleView
@@ -30,7 +30,7 @@
     return self;
 }
 
-- (void)setColor:(NSString *)color {
+- (void)setColor:(UIColor *)color {
     _color = color;
     [self setNeedsLayout];
 }
@@ -39,10 +39,8 @@
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
     // Drawing code
-    UIColor *color = [UIColor colorWithHexString:self.color alpha:1.0f];
-    
     UIBezierPath* ovalPath = [UIBezierPath bezierPathWithOvalInRect:rect];
-    [color setFill];
+    [self.color setFill];
     [ovalPath fill];
 }
 
